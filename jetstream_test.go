@@ -32,7 +32,7 @@ func TestMain(t *testing.M) {
 func TestPublish(t *testing.T) {
 	natsOpts := []nats.Option{
 		nats.ErrorHandler(func(_ *nats.Conn, _ *nats.Subscription, e error) {
-			t.Fatalf("Error euy %q", e)
+			t.Fatalf("Error euy teh %q", e)
 		}),
 	}
 
